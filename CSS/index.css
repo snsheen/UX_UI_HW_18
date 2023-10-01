@@ -1,0 +1,220 @@
+body {
+    background-color: black;
+}
+nav{
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    font-family: Manrope, Arial, sans-serif;
+    padding: 60px 100px 60px 60px;
+  
+}
+a {
+    padding-left: 40px;
+}
+
+.heroImage {
+      
+
+}
+.containerImage{
+    padding: 5px;
+    padding-left: 200px;
+    display: flex;
+    align-items: left;
+    width: 700px;
+    height: 800px;  
+}
+.containerHead{
+
+    display: flex;
+   align-items: right;
+}
+.headLine {
+    color: rgb(200, 205, 201);
+    font-size: 60px;
+    font-family: Manrope, Arial, sans-serif;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 200px;
+}
+.headLine2 {
+    color: rgb(200, 205, 201);
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Manrope, Arial, sans-serif;
+    text-align: center;
+    padding-left: 80px;
+    padding-top: 5px;
+    padding-right: 80px;
+}
+
+.buttonContainer{
+    display:flex;
+    justify-content: center;
+}
+.ViewProjectButton {
+    padding: 18px;
+    font-size: 20px;
+    font-family: Manrope, Arial, sans-serif;
+}
+
+
+.mainContainer{
+    display: flex;
+    background-color: black;
+}
+
+.workSection {
+    background-color: black;
+    color: rgb(200, 205, 201);
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Manrope, Arial, sans-serif;
+    padding: 100px;
+
+}
+
+.travelappPhoto {
+    padding-top: 100px;
+    text-align: center; 
+    margin: 0 auto;
+}
+.travelappPhoto p {
+    color: white;
+    font-weight: lighter;
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 24px;
+}
+/*
+.travelappimg {
+    padding-left: 800px;
+    width: 500px;
+    height: 300px;
+}*/
+.appNameandButton {
+    align-items: right;
+}
+
+
+.viewWorkbutton {
+    padding: 18px;
+    font-size: 20px;
+    font-family: Manrope, Arial, sans-serif;
+    display:block;
+    margin:0 auto;
+}
+
+.skillsHeadline {
+    text-align: center;
+    padding: 25px;
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 30px;
+    color:antiquewhite;
+
+
+}
+
+.flexContainer {
+    display:flex;
+}
+
+.userResearch {
+    padding: 2%;
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 15px;
+    color:azure;
+    background-color: grey;
+
+}
+
+.uiDesign {
+    padding: 2%;
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 15px;
+    color:azure;
+    background-color: grey;
+
+
+}
+
+.webDevelopment {
+    padding: 2%;
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 15px;
+    color:azure;
+    background-color: grey;
+
+}
+
+.titlemyWork {
+    color:antiquewhite;
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-top: 70px;
+
+}
+
+.workGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    color:antiquewhite;
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+
+.workGridItem1 {   
+    padding: 20px;
+    height: 80%;
+    width: 140%;
+    color: antiquewhite;
+ 
+}
+.workGridItem2 {
+ text-align: center;
+   /* width: 100px;
+   height: 50px;
+   padding: 10px; */
+ 
+}
+
+
+.footerContainer {
+    background-color: rgb(1, 1, 1);
+    padding-top: 15px;
+}
+
+.email {
+    font-size: 50px;
+    color: antiquewhite;
+    padding: 25px;
+}
+
+.footerMessage {
+    color: rgb(200, 205, 201);
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Manrope, Arial, sans-serif;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+    body{
+        background-color: black;
+        margin: 0px;
+        dis 
+    }
+
+}
